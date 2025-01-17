@@ -52,6 +52,21 @@ export default function Home() {
         </div>
       </div>
 
+      <div className="mt-24 bg-gray-50 py-16">
+        <div className="max-w-3xl mx-auto text-center px-4 sm:px-6 lg:px-8">
+          <h2 className="text-3xl font-extrabold text-gray-900">Our Vision</h2>
+          <p className="mt-4 text-xl italic text-gray-600">
+            "If opportunity doesn't knock, build a door" - Milton Berle
+          </p>
+          <p className="mt-4 text-lg text-gray-500">
+            Don't wait for opportunity to knock—create it yourself. At Build the Door, we fuse visionary thinking with cutting-edge AI to transform the way businesses operate and grow.
+          </p>
+          <p className="mt-4 text-lg text-gray-500">
+            Inspired by Milton Berle's timeless wisdom, we're forging tools that allow you to seize control of your future rather than wait on chance.
+          </p>
+        </div>
+      </div>
+
       <div className="mt-24 text-center">
         <h2 className="text-3xl font-extrabold text-gray-900">
           Forge Your Path to Success
