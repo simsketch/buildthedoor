@@ -68,7 +68,10 @@ export default function Contact() {
               </div>
             </div>
           </div>
-          <form onSubmit={handleSubmit} className="lg:col-span-2">
+          <form action="https://api.web3forms.com/submit" method="POST" className="lg:col-span-2">
+            <input type="hidden" name="access_key" value="20109da6-d15c-4108-8462-c51d68b8ef2b" />
+            <input type="hidden" name="subject" value="Build the Door - New Contact Form Submission" />
+            <input type="hidden" name="redirect" value="https://buildthedoor.com/thank-you" />
             <div className="grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8">
               <div>
                 <label htmlFor="name" className="block text-sm font-medium text-gray-700">

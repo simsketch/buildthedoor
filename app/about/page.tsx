@@ -4,13 +4,13 @@ const founders = [
   {
     name: 'Tiffany Cruz',
     role: 'Co-Founder & CEO',
-    image: '/placeholder.svg?height=400&width=400',
-    bio: 'Tiffany Cruz is a visionary leader with over 15 years of experience in AI and machine learning. Her passion for making AI accessible to underserved industries drives the mission of Build the Door.'
+    image: '/tiffany.webp?height=400&width=400',
+    bio: 'Tiffany Cruz is a visionary leader with over 15 years of experience in multiple industries. Her passion for making AI accessible to underserved industries drives the mission of Build the Door.'
   },
   {
     name: 'Elon Zito',
     role: 'Co-Founder & CTO',
-    image: '/placeholder.svg?height=400&width=400',
+    image: '/elon.webp?height=400&width=400',
     bio: 'Elon Zito is a renowned technologist with a track record of developing cutting-edge AI solutions. His expertise in AI integration and scalable architecture forms the backbone of Build the Door\'s innovative products.'
   }
 ]

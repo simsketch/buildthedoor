@@ -3,7 +3,7 @@ import { ArrowRight } from 'lucide-react'
 
 export default function Home() {
   return (
-    <div className="max-w-7xl mx-auto">
+    <div className="max-w-7xl mx-auto mt-24">
       <div className="text-center">
         <h1 className="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
           <span className="block">Welcome to</span>
