@@ -1,14 +1,13 @@
 import './globals.css'
 import { Inter } from 'next/font/google'
-import type { Metadata } from 'next'
 import Header from './components/Header'
 import Footer from './components/Footer'
 
 const inter = Inter({ subsets: ['latin'] })
 
-export const metadata: Metadata = {
-  title: 'My Next.js Site',
-  description: 'Created with Next.js',
+export const metadata = {
+  title: 'Build the Door',
+  description: 'Empowering everyday businesses with user-friendly AI tools',
 }
 
 export default function RootLayout({
@@ -20,7 +19,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         <Header />
-        <main>
+        <main className="min-h-screen py-8 px-4 sm:px-6 lg:px-8">
           {children}
         </main>
         <Footer />
